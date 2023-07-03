@@ -9,7 +9,7 @@ const Contact = () => {
        <h1>contact us</h1>
        <Contactcard/>
        <section className={styles.contact_section}>
-        <h2>We'd love to hear<span> from you</span> </h2>
+        <h2>We love to hear<span> from you</span> </h2>
         <ContactForm />
        </section>
        </div>
