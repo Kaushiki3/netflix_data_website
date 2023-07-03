@@ -3,6 +3,7 @@ import Link from 'next/link'
 import  Moviecard from "@/app/components/Moviecard"
 import styles from "@/app/styles/common.module.css"
 const Movie =async () => {
+  await new Promise(resolve => setTimeout(resolve, 2000));
   const url = process.env.RAPID_KEY;
 const options = {
   method: 'GET',
