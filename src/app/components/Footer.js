@@ -22,7 +22,7 @@ const Footer = () => {
                         <div className={footerStyles[`media-icons`]}>
                             <Link href="#"><i > <FaFacebookF/> </i></Link>
                             <Link href="#"><i > <FaTwitter/> </i> </Link>
-                            <Link href="https://www.instagram.com/thapatechnical/" target="_blank"><i > <FaInstagram/>  </i></Link>
+                            <Link href="#" target="_blank"><i > <FaInstagram/>  </i></Link>
                             <Link href="#"><i > <FaLinkedinIn /> </i></Link>
                             <Link href="#"><i > <FaYoutube />  </i></Link>
                         </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link href="/>"> Thapa Technical.</Link> All rights reserved </span>
+                            <Link href="/>"> Saya</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
                           <Link href="/">Privacy policy</Link>
                           <Link href="/">Terms & condition</Link>
