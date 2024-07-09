@@ -5,7 +5,7 @@ const About = () => {
   return (
     
       
-    <Herosection title={"OUR STOR"} imageUrl={"/about1.svg"}/>
+    <Herosection title={"OUR STORY"} imageUrl={"/about1.svg"}/>
   )
 }
 
